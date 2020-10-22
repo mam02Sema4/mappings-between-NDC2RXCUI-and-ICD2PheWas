@@ -2,7 +2,6 @@
 mappings between NDC2RXCUI and ICD2PheWas
 
 ## Mappings
-
 - all mappings are in resources directory
 - all mappings are stored as pickle files
 - all mappings are dictionary
@@ -13,5 +12,7 @@ mappings between NDC2RXCUI and ICD2PheWas
 > this mapping can have multiple mapped results (the values in dict are set)
 
 ## notebook
-
 - jupyter notebooks for how we map the codes
+
+##  Current version
+- current mappings are based on **RxNorm Full Monthly Release October 5, 2020**
