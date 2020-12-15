@@ -10,6 +10,16 @@ mappings between NDC2RXCUI and ICD2PheWas
 - NDC to RXCUI
 - RXCUI to ingredient level RXCUI
 > this mapping can have multiple mapped results (the values in dict are set)
+- CPT, ICD10, ICD9 procedure codes to CCS code
+
+## mappings format
+- rxcui2name: one to one
+- rxcui_remap: one to many; value is a set
+- rxcui2ingredient: one to many; value is a set; if value is an empty set then itself is a ingredient
+- ndc2rxcui: one to one
+- icd2phewas: one to one
+- cpt2ccs: one to one
+
 
 ## notebook
 - jupyter notebooks for how we map the codes
